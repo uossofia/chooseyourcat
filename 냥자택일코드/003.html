@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>냥자택일</title>
+</head>
+<body>
+    <button>이름 입력하기</button>
+    <script>
+    const button = document.querySelector('button');
+    button.onclick = function() {
+     let name = prompt('자네의 이름을 알려주게.');
+     alert('허허허 ' + name + ' 예비고양이! 만나서 반가워!');
+     localStorage.setItem("이름", name);
+     
+}
+    const 이름 = localStorage.getItem('이름')
+    </script>
+    <a href = "004.html">다음</a>
+</body>
+</html>

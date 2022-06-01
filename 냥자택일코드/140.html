@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>냥자택일</title>
+</head>
+<body>
+    오오!! 자네...<br>
+    <script>
+    const 일일영 = localStorage.getItem('110')
+    const 일이영 = localStorage.getItem('120')
+    const 일삼영 = localStorage.getItem('130')
+
+    if ( 일일영 == '짜장면' && 일이영 == '슈크림' && 일삼영=='피자'){
+    document.write('날쌘형, 검은젤리냥이로군!');
+    localStorage.setItem('140', '날쌘형, 검은젤리');
+    }
+    if ( 일일영 == '짜장면' && 일이영 == '슈크림'&& 일삼영=='치킨'){
+    document.write('날쌘형, 갈색젤리냥이로군!');
+    localStorage.setItem('140', '날쌘형, 갈색젤리');
+    }
+    if ( 일일영 == '짜장면'&& 일이영 == '팥'&& 일삼영=='피자'){
+    document.write('둔둔형, 검은젤리냥이로군!');
+    localStorage.setItem('140', '둔둔형, 검은젤리');
+    }
+    if (일일영 == '짜장면'&& 일이영 == '팥'&& 일삼영=='치킨'){
+    document.write('둔둔형, 갈색젤리냥이로군!');
+    localStorage.setItem('140', '둔둔형, 갈색젤리');
+    }
+    if (일일영 == '짬뽕'&& 일이영 == '슈크림'&& 일삼영=='피자'){
+    document.write('날쌘형, 진한핑크젤리냥이로군!');
+    localStorage.setItem('140', '날쌘형, 진한핑크젤리');
+    }
+    if (일일영 == '짬뽕'&& 일이영 == '슈크림'&& 일삼영=='치킨'){
+    document.write('날쌘형, 연한핑크젤리냥이로군!');
+    localStorage.setItem('140', '날쌘형, 연한핑크젤리');
+    }
+    if (일일영 == '짬뽕'&& 일이영 == '팥'&& 일삼영=='피자'){
+    document.write('둔둔형, 진한핑크젤리냥이로군!');
+    localStorage.setItem('140', '둔둔형, 진한핑크젤리');
+    }
+    if (일일영 == '짬뽕'&& 일이영 == '팥'&& 일삼영=='치킨'){
+    document.write('둔둔형, 연한핑크젤리냥이로군!');
+    localStorage.setItem('140', '둔둔형, 연한핑크젤리');
+    }
+   
+    </script>
+     <a href = "200.html">넘어가기</a>
+</body>
+</html>

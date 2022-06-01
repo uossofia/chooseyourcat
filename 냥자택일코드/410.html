@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <link rel="stylesheet" href="./css/test.css">
+    <title>냥자택일</title>
+</head>
+<body>
+    <div id="test">
+        <div id="main">
+            <div class="title-wrap">
+                <h2 class="title">
+                    <!-- 타이틀 -->
+                </h2>
+            </div>
+
+            <div class="question-wrap">
+                <h3 class="question">
+                    Q.나는?<!-- 질문 -->
+                </h3>
+            </div>
+            <div class="answer-wrap">
+                <div class="answer">
+                    <input type="button"  value="감성적인 편" onclick="
+                    localStorage.setItem('410', '감성')
+                    location.href='420.html'
+                    ">
+                    <input type="button"  value="이성적인 편" onclick="
+                    localStorage.setItem('410', '이성')
+                    location.href='420.html'
+                    ">
+                </div>
+                
+            
+            </div>
+            <div class="bottom">
+                <div class="controller-wrap">
+                    <button class='prev-btn'>이전</button>
+                    <button class='next-btn'>다음</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/test.js"></script>
+</body>
+</html>
+
